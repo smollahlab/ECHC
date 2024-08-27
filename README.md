@@ -9,5 +9,5 @@ To run analysis, you will need to install the gen3DNet R package (developed by M
 install.packages("remotes")
 remotes::install_github("MollahLab/gen3DNet")
 ```
-Gen3DResults for the MCF7 cell line is provided in the results folder.
+Gen3DNet results for the MCF7 cell line is provided in the results folder.
 ## Citation
