@@ -9,3 +9,4 @@ To run analysis, you will need to install the gen3DNet R package (developed by M
 install.packages("remotes")
 remotes::install_github("MollahLab/gen3DNet")
 ```
+## Citation
