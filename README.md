@@ -12,3 +12,4 @@ remotes::install_github("MollahLab/gen3DNet")
 Gen3DNet results for the MCF7 cell line is provided in the results folder.
 ## Citation
 1. Mollah, S. A., & Subramaniam, S. (2020). Histone Signatures Predict Therapeutic Efficacy in Breast Cancer. IEEE open journal of engineering in medicine and biology, 1, 74–82. https://doi.org/10.1109/OJEMB.2020.2967105
+2. Paul Morrison, Tina Tang, Charles Lu, Shamim Mollah. gen3DNet: An R Package for Generating 3D Network Models. https://doi.org/10.1101/2024.11.11.623060
