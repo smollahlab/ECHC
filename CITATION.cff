@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 title: Epigenetic Profiling of Neuroactive Curcumin on Histone Signatures in Breast Cancer using  gen3DNet
 authors:
-   - family-names: Tang
-    given-names: Tina
-   - family-names: Berezin
-    given-names: Mikhail
-   - family-names: Garcia
-    given-names: Benjamin
-   - family-names: Mollah
-    given-names: Shamim Ara
+   - family-names: "Tang"
+    given-names: "Tina"
+   - family-names: "Berezin"
+    given-names: "Mikhail"
+   - family-names: "Garcia"
+    given-names: "Benjamin"
+   - family-names: "Mollah"
+    given-names: "Shamim Ara"
     orcid: https://orcid.org/0000-0001-9178-8339
 version: 1.0.1
 date-released: 2026-06-02
