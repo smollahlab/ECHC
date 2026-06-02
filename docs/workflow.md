@@ -1,5 +1,5 @@
 Step 1:
-Download L1000
+Download P100, GCP, L1000
 
 Step 2:
 Generate differential signatures
