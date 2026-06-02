@@ -1,5 +1,5 @@
 Step 1:
-Download LINCS P100, GCP, L1000
+Download LINCS P100, GCP, L1000 datasets
 
 Step 2:
 Generate differential signatures
