@@ -18,7 +18,7 @@ round_df <- function(df, digits) {
 }
 
 #######Preprocess Histone File##################################################
-his_gct <- read.delim(file="/Users/tinatang/Desktop/Mollah_Lab/gen3DNet-data/LINCS_GCP_Plate23_annotated_minimized_2018-05-07_14-31-53_LVL3.gct", skip=2)
+his_gct <- read.delim(file="LINCS_GCP_Plate23_annotated_minimized_2018-05-07_14-31-53_LVL3.gct", skip=2)
 his_gct[his_gct == ""] <- NA
 #get histone names
 his_name <- his_gct[,"pr_gcp_histone_mark"]
@@ -43,7 +43,7 @@ histone_final <- histone_data |> group_by(X) |>
 histone_final[is.nan(histone_final)] <- 0
 
 #######Preprocess Phosphoprotein File##############################################
-phos_gct <- read.delim(file="/Users/tinatang/Desktop/Mollah_Lab/gen3DNet-data/LINCS_P100_DIA_Plate23_annotated_minimized_2018-05-02_18-13-55_LVL3.gct", skip=2)
+phos_gct <- read.delim(file="LINCS_P100_DIA_Plate23_annotated_minimized_2018-05-02_18-13-55_LVL3.gct", skip=2)
 phos_gct[phos_gct ==""] <- NA
 #get phosphoprotein names
 phos_name <- phos_gct[,"pr_gene_symbol"]
@@ -98,15 +98,15 @@ histone_fc <- round_df(histone_fc, digits=5)
 phospho_fc <- round_df(phospho_fc, digits=5)
 
 #save preprocessed files
-write.csv(histone_fc, "/Users/tinatang/Desktop/Mollah_Lab/gen3DNet-data/histone.csv", row.names=TRUE)
-write.csv(phospho_fc, "/Users/tinatang/Desktop/Mollah_Lab/gen3DNet-data/phospho.csv", row.names=TRUE)
+write.csv(histone_fc, "data/preprocessed/histone.csv", row.names=TRUE)
+write.csv(phospho_fc, "data/preprocessed/phospho.csv", row.names=TRUE)
 
 ################################################################################
 
 ##### Use preprocessed files in Gen3DNet analysis package ######################
 
-left <- "/Users/tinatang/Desktop/Mollah_Lab/gen3DNet-data/histone.csv"
-right <- "/Users/tinatang/Desktop/Mollah_Lab/gen3DNet-data/phospho.csv"
+left <- "data/preprocessed/histone.csv"
+right <- "data/preprocessed/phospho.csv"
 
 result <- gen3DNet(
   left,
