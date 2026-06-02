@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: Epigenetic Profiling of Neuroactive Curcumin on Histone Signatures in Breast Cancer using  gen3DNet
 authors:
-   - family-names: Mollah
+  - family-names: Mollah
     given-names: Shamim Ara
     orcid: https://orcid.org/0000-0001-9178-8339
 version: 1.0.1
