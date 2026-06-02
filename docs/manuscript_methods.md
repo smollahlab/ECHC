@@ -1,6 +1,8 @@
-| Figure  | Script                       |
-| ------- | --------                     |
-| Fig 1   | Biorender                    |
-| Fig 2   | gen3DNet                     |
-| Fig 3   | Venny                        |
-| Fig 4   | Metascape, STRINGdb, EnrichR |
+| Figure  | Script/tool                      |
+| ------- | --------                         |
+| Fig 1   | Biorender                        |
+| Fig 2   | gen3DNet                         |
+| Fig 3   | Venny 2.1                        |
+| Fig 4   | Metascape, STRINGdb, EnrichR     |
+| Fig S1  | gen3DNet, Optimal_K_evaluation.R |
+| Fig S2  | gen3DNet                         |
