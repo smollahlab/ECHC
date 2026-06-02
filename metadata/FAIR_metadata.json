@@ -1,0 +1,21 @@
+{
+  "title": "Epigenetic Profiling of Neuroactive Curcumin on Histone Signatures in Breast Cancer using  gen3DNet",
+  "description": "Multi-omics analysis of curcumin-induced epigenetic signatures",
+  "authors": [
+    {
+      "name": "Shamim Ara Mollah",
+      "orcid": "0000-0001-9178-8339"
+    }
+  ],
+  "keywords": [
+    "epigenetics",
+    "curcumin",
+    "LINCS",
+    "histone code",
+    "multiomics"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/username/project",
+  "version": "1.0.1",
+  "dateCreated": "2026-06-02"
+}
