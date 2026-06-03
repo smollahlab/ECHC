@@ -3,9 +3,9 @@
 Aberrant epigenetic alterations are known to lead to cancer arising from normal non-cancerous cells. Unlike genetic mutations, these dysregulations can be reversible and are potential targets for anticancer drugs. Curcumin, a natural plant-derived compound, has been shown to have an anticancer effect via its influence on epigenetic regulation. However, the exact identity of those epigenetic changes, as well as their mechanisms of action, remain largely unknown. The goal of this study is to use a 3D network model to identify what histone codes are being modified by curcumin and the enzymatic pathways through which those changes occur in breast cancer. We analyzed multi-omic data from the NIH LINCS program and identified two novel histone marks associated with curcumin that are influenced by twenty-three phosphoproteins involved in cell signaling which are profiled in this paper. These histone and phosphoprotein signatures can be used as potential biomarkers for future chromatin-based drug therapies in breast cancer.
 
 ## Datasets
-- LINCS P100  (https://panoramaweb.org/LINCS/P100)
-- LINCS GCP   (https://panoramaweb.org/LINCS/GCP)
-- LINCS L1000 (https://maayanlab.cloud/sigcom-lincs)
+- LINCS P100  (https://panoramaweb.org/LINCS/P100). The specific input file is provided in the data/P100 folder.
+- LINCS GCP   (https://panoramaweb.org/LINCS/GCP). The specific input files are provided in the data/GCP folder.
+- LINCS L1000 (https://maayanlab.cloud/sigcom-lincs). The specific input files are provided in the data/L1000 folder.
 - GSE286387 dataset (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286387)
 
 ## Workflow
