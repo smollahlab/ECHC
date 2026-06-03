@@ -26,4 +26,4 @@ seed = nndsvd (a robust initialization strategy using the seeding algorithm, tha
 
 ## Runtime
 
-Approx. 5 min
+Approx. 2-5 min
