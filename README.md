@@ -22,6 +22,7 @@ To run analysis, you will need to install the gen3DNet R package (developed by M
 install.packages("remotes")
 remotes::install_github("MollahLab/gen3DNet")
 ```
+Once gen3DNet is install run preprocessing_script.R to generate results folder.
 Gen3DNet results for the MCF7 cell line is provided in the results folder.
 ## Citation
 1. Tina Tang, Mikhail A Berezin, Benjamin A Garcia, Shamim A Mollah. Epigenetic Profiling of Neuroactive Curcumin on Histone Signatures in Breast Cancer using  gen3DNet. bioRxiv 2024.11.13.623008; doi: https://doi.org/10.1101/2024.11.13.623008
